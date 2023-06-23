@@ -1,0 +1,117 @@
+.main{
+    background-color:#5F90A1;
+    width: 100%;
+    height:90vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.image img{
+    float: right;
+    margin-right: 10px;
+}
+/* a{
+    display: flex;
+    text-align: center;
+} */
+.desc h1{
+    padding-top: 60px;
+    font-family:normal;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    color: #AF3237;
+}
+.desc h3{
+    padding-top: 30px;
+    font-family:normal;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    color: #AF3237;
+}
+.buttons a{
+    height: 60px;
+    width: 180px;
+    text-decoration: none;
+    /* min-width: 150px; */
+    display: inline;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 50px;
+    background-color:transparent;
+    border:1px solid #AF3237;
+    color:#ffffff;
+    font-weight: 600;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/* .buttons{
+    margin-left: 80px;
+} */
+.buttons a:hover{
+    color: whitesmoke;
+    background-color:#AF3237;
+    border: 1px solid whitesmoke;
+}
+@media(max-width:76.97rem){
+    .main{
+        height:75vh;
+    }
+
+    .desc h1{
+        padding-top: 6%;
+    font-family:normal;
+    font-size: 200%;
+    text-align: center;
+    font-weight: 600;
+    color: #AF3237;
+    }
+    .desc h3{
+        padding-top: 3%;
+        font-family:normal;
+        font-size: 200%;
+        text-align: center;
+        font-weight: 600;
+        color: #AF3237;
+    }
+    .buttons a{
+        text-decoration: none;
+        min-width: 15%;
+        display: inline;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 8%;
+        margin-top: 8%;
+        background-color:transparent;
+        border:1% solid #AF3237;
+        color:#ffffff;
+        font-weight: 600;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 100%;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 0.5rem;
+    }
+    .buttons a:hover{
+        color: whitesmoke;
+        background-color:#AF3237;
+        border: 1px solid whitesmoke;
+    }
+    .buttons{
+        margin-left:23%;
+    }
+    .image{
+        float: none;
+        display: none;
+    }
+}

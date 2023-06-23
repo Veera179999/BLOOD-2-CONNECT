@@ -1,0 +1,86 @@
+/* Basic styling for the form */
+/* .hi {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+.container1 {
+  
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color:  rgb(240, 19, 19);
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+
+button:hover {
+  background-color: rgb(236, 117, 117);
+ 
+}
+
+/* Custom styling for select elements */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+
+  background-position: right center;
+  background-size: 18px;
+  padding-right: 25px;
+  left: 10px;
+}
+
+/* Custom styling for the Search button */
+button[type="submit"] {
+  background-color: red;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: red;
+}
+body{
+  background-color: #5f90a1;
+  height: 80vh;
+}
+@media(max-width:76.97rem){
+  body{
+    height: 50vh;
+  }
+}

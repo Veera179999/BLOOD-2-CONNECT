@@ -1,0 +1,80 @@
+.gradient-custom{
+    background-color: #5f90a1;
+    height: 150vh;
+}
+.card-body{
+    background-color: #5f90a1;  
+}
+.card{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    border-color: white;
+    width: 100%;
+    height: 140%;
+
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #cc2740;
+    
+    
+}
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top:13px;
+}
+.btn{
+    border-color: #af3237;
+    background-color: #5f90a1;
+    }
+    .btn:hover{
+        background-color: #af3237;
+        
+    }
+@media(min-width:1200px)and(max-width:1259px) {
+    .gradient-custom{
+    background-color: #5f90a1;
+}
+.card-body{
+    background-color: #5f90a1;   
+}
+.card{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    border-color: white;
+    width:100%;
+
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #cc2740;
+}
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top:13px;
+}
+.btn{
+    background-color: rgb(80, 80, 231);
+    }
+    .btn:hover{
+        background-color: green;
+    }
+}
+/* @media(76.95rem){
+*{
+    height:50vh ;
+    
+}
+} */

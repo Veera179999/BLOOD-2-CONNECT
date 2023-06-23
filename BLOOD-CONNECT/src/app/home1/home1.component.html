@@ -1,0 +1,34 @@
+<app-nav1></app-nav1>
+<div class="main">
+  <div class="qwer">
+    <div class="image" data-aos="fade-in">
+      <img [src]="img" alt="" style="height: 45%; width:45%">
+    </div>
+    <div class="desc" data-aos="slide-down">
+      <h1>Be someone's hero</h1>
+      <h3>Donate blood.</h3>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <!-- <h5 class="card-title" style="color:#AF3237;">Be A Donor</h5> -->
+          <p class="card-text">Donating blood is not just about giving blood, it's about giving someone
+            another chance at life.</p>
+          <button (click)="onclick()">Be A Donor</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <!-- <h5 class="card-title" style="color:#AF3237;">Find A Donor</h5> -->
+          <p class="card-text">Blood donors are silent heroes, who selflessly give a part of themselves to save the lives of others.</p>
+          <button (click)="onclick1()">Find A Donor</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

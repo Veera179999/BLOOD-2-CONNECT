@@ -1,0 +1,33 @@
+.main{
+    background-color:#5F90A1;
+    width: 100%;
+    height:90vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.image img{
+    float: left;
+    /* margin-left: 15px; */
+}
+input::placeholder{
+    font-size: small;
+}
+.card-body{
+    margin-top: 50px;
+}
+h2{
+    color: #AF3237;
+}
+.reg p{
+    padding-top: 10px;
+}
+@media(max-width:76.97rem){
+    .main{
+        height: auto;
+    }
+        .image{
+            float: none;
+            display: none;
+       
+    }
+}
